@@ -1,0 +1,315 @@
+.white {
+    background-color: #ffffff;
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 0.7rem;
+    border-radius: 0 0 5px 5px;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 0 -1.5px rgb(211, 211, 208),
+        0 0px 15px -5px rgba(0, 0, 0, 0.4), inset 0 1px rgba(255, 255, 255, 0.3),
+        inset 0 0 1px rgba(255, 255, 255, 0.5);
+    transition: 0.2s linear;
+
+    // octaves-3
+    &.C3 {
+        background-color: var(--octava-c3-color);
+        box-shadow: 0 0 20px 5px var(--octava-c3-color);
+        z-index: 1;
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+    }
+
+    &.D3 {
+        background-color: var(--octava-d3-color);
+        box-shadow: 0 0 20px 5px var(--octava-d3-color);
+        z-index: 1;
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+    }
+
+    &.E3 {
+        background-color: var(--octava-e3-color);
+        box-shadow: 0 0 20px 5px var(--octava-e3-color);
+        z-index: 1;
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+    }
+
+    &.F3 {
+        background-color: var(--octava-f3-color);
+        box-shadow: 0 0 20px 5px var(--octava-f3-color);
+        z-index: 1;
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+    }
+
+    &.G3 {
+        background-color: var(--octava-g3-color);
+        box-shadow: 0 0 20px 5px var(--octava-g3-color);
+        z-index: 1;
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+    }
+
+    &.A3 {
+        background-color: var(--octava-a3-color);
+        box-shadow: 0 0 20px 5px var(--octava-a3-color);
+        z-index: 1;
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+    }
+
+    &.B3 {
+        background-color: var(--octava-b3-color);
+        box-shadow: 0 0 20px 5px var(--octava-b3-color);
+        z-index: 1;
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+    }
+
+    // octaves-4
+    &.C4 {
+        background-color: var(--octava-c4-color);
+        box-shadow: 0 0 20px 5px var(--octava-c4-color);
+        z-index: 1;
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+    }
+
+    &.D4 {
+        background-color: var(--octava-d4-color);
+        box-shadow: 0 0 20px 5px var(--octava-d4-color);
+        z-index: 1;
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+    }
+
+    &.E4 {
+        background-color: var(--octava-e4-color);
+        box-shadow: 0 0 20px 5px var(--octava-e4-color);
+        z-index: 1;
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+    }
+
+    &.F4 {
+        background-color: var(--octava-f4-color);
+        box-shadow: 0 0 20px 5px var(--octava-f4-color);
+        z-index: 1;
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+    }
+
+    &.G4 {
+        background-color: var(--octava-g4-color);
+        box-shadow: 0 0 20px 5px var(--octava-g4-color);
+        z-index: 1;
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+    }
+
+    &.A4 {
+        background-color: var(--octava-a4-color);
+        box-shadow: 0 0 20px 5px var(--octava-a4-color);
+        z-index: 1;
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+    }
+
+    &.B4 {
+        background-color: var(--octava-b4-color);
+        box-shadow: 0 0 20px 5px var(--octava-b4-color);
+        z-index: 1;
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+    }
+
+    // octaves-5
+    &.C5 {
+        background-color: var(--octava-c5-color);
+        box-shadow: 0 0 20px 5px var(--octava-c5-color);
+        z-index: 1;
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+    }
+
+    &.D5 {
+        background-color: var(--octava-d5-color);
+        box-shadow: 0 0 20px 5px var(--octava-d5-color);
+        z-index: 1;
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+    }
+
+    &.E5 {
+        background-color: var(--octava-e5-color);
+        box-shadow: 0 0 20px 5px var(--octava-e5-color);
+        z-index: 1;
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+    }
+
+    &.F5 {
+        background-color: var(--octava-f5-color);
+        box-shadow: 0 0 20px 5px var(--octava-f5-color);
+        z-index: 1;
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+    }
+
+    &.G5 {
+        background-color: var(--octava-g5-color);
+        box-shadow: 0 0 20px 5px var(--octava-g5-color);
+        z-index: 1;
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+    }
+
+    &.A5 {
+        background-color: var(--octava-a5-color);
+        box-shadow: 0 0 20px 5px var(--octava-a5-color);
+        z-index: 1;
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+    }
+
+    &.B5 {
+        background-color: var(--octava-b5-color);
+        box-shadow: 0 0 20px 5px var(--octava-b5-color);
+        z-index: 1;
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+    }
+}
+
+.black {
+    color: #ffffff;
+    background-color: #1d1e22;
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    left: -40%;
+    width: 78%;
+    height: 50%;
+    font-size: 0.7rem;
+    border-radius: 0 0 5px 5px;
+    z-index: 2;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 6px 0 -0.5px rgb(97, 97, 95),
+        0 0px 15px -5px rgba(0, 0, 0, 0.4), inset 0 1px rgba(255, 255, 255, 0.3),
+        inset 0 0 1px rgba(255, 255, 255, 0.5);
+    transition: 0.2s linear;
+
+    // octava-diez-3
+    &.C3Diez {
+        background-color: var(--octava-c3diez-color);
+        box-shadow: 0 0 20px 5px var(--octava-c3diez-color);
+        -webkit-transform: translate(0, 1.5px);
+        transform: translate(0, 1.5px);
+    }
+
+    &.D3Diez {
+        background-color: var(--octava-d3diez-color);
+        box-shadow: 0 0 20px 5px var(--octava-d3diez-color);
+        -webkit-transform: translate(0, 1.5px);
+        transform: translate(0, 1.5px);
+    }
+
+    &.F3Diez {
+        background-color: var(--octava-f3diez-color);
+        box-shadow: 0 0 20px 5px var(--octava-f3diez-color);
+        -webkit-transform: translate(0, 1.5px);
+        transform: translate(0, 1.5px);
+    }
+
+    &.G3Diez {
+        background-color: var(--octava-g3diez-color);
+        box-shadow: 0 0 20px 5px var(--octava-g3diez-color);
+        -webkit-transform: translate(0, 1.5px);
+        transform: translate(0, 1.5px);
+    }
+
+    &.A3Diez {
+        background-color: var(--octava-a3diez-color);
+        box-shadow: 0 0 20px 5px var(--octava-a3diez-color);
+        -webkit-transform: translate(0, 1.5px);
+        transform: translate(0, 1.5px);
+    }
+
+    // octava-diez-4
+    &.C4Diez {
+        background-color: var(--octava-c4diez-color);
+        box-shadow: 0 0 20px 5px var(--octava-c4diez-color);
+        -webkit-transform: translate(0, 1.5px);
+        transform: translate(0, 1.5px);
+    }
+
+    &.D4Diez {
+        background-color: var(--octava-d4diez-color);
+        box-shadow: 0 0 20px 5px var(--octava-d4diez-color);
+        -webkit-transform: translate(0, 1.5px);
+        transform: translate(0, 1.5px);
+    }
+
+    &.F4Diez {
+        background-color: var(--octava-f4diez-color);
+        box-shadow: 0 0 20px 5px var(--octava-f4diez-color);
+        -webkit-transform: translate(0, 1.5px);
+        transform: translate(0, 1.5px);
+    }
+
+    &.G4Diez {
+        background-color: var(--octava-g4diez-color);
+        box-shadow: 0 0 20px 5px var(--octava-g4diez-color);
+        -webkit-transform: translate(0, 1.5px);
+        transform: translate(0, 1.5px);
+    }
+
+    &.A4Diez {
+        background-color: var(--octava-a4diez-color);
+        box-shadow: 0 0 20px 5px var(--octava-a4diez-color);
+        -webkit-transform: translate(0, 1.5px);
+        transform: translate(0, 1.5px);
+    }
+
+    // octava-diez-5
+    &.C5Diez {
+        background-color: var(--octava-c5diez-color);
+        box-shadow: 0 0 20px 5px var(--octava-c5diez-color);
+        -webkit-transform: translate(0, 1.5px);
+        transform: translate(0, 1.5px);
+    }
+
+    &.D5Diez {
+        background-color: var(--octava-d5diez-color);
+        box-shadow: 0 0 20px 5px var(--octava-d5diez-color);
+        -webkit-transform: translate(0, 1.5px);
+        transform: translate(0, 1.5px);
+    }
+
+    &.F5Diez {
+        background-color: var(--octava-f5diez-color);
+        box-shadow: 0 0 20px 5px var(--octava-f5diez-color);
+        -webkit-transform: translate(0, 1.5px);
+        transform: translate(0, 1.5px);
+    }
+
+    &.G5Diez {
+        background-color: var(--octava-g5diez-color);
+        box-shadow: 0 0 20px 5px var(--octava-g5diez-color);
+        -webkit-transform: translate(0, 1.5px);
+        transform: translate(0, 1.5px);
+    }
+
+    &.A5Diez {
+        background-color: var(--octava-a5diez-color);
+        box-shadow: 0 0 20px 5px var(--octava-a5diez-color);
+        -webkit-transform: translate(0, 1.5px);
+        transform: translate(0, 1.5px);
+    }
+}

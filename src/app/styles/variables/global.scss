@@ -1,0 +1,54 @@
+:root {
+    // fonts
+    --font-octava: italic small-caps bold 32px/2 cursive;
+
+    // octaves-colors-white
+    // octaves-3
+    --octava-c3-color: rgb(255, 0, 0);
+    --octava-d3-color: rgb(255, 42.5, 0);
+    --octava-e3-color: rgb(255, 85, 0);
+    --octava-f3-color: rgb(255, 127.5, 0);
+    --octava-g3-color: rgb(255, 170, 0);
+    --octava-a3-color: rgb(255, 212.5, 0);
+    --octava-b3-color: rgb(255, 255, 0);
+
+    // octaves-4
+    --octava-c4-color: rgb(170, 255, 0);
+    --octava-d4-color: rgb(85, 255, 0);
+    --octava-e4-color: rgb(0, 255, 0);
+    --octava-f4-color: rgb(0, 255, 85);
+    --octava-g4-color: rgb(0, 255, 170);
+    --octava-a4-color: rgb(0, 255, 255);
+    --octava-b4-color: rgb(0, 170, 255);
+
+    // octaves-5
+    --octava-c5-color: rgb(0, 85, 255);
+    --octava-d5-color: rgb(0, 0, 255);
+    --octava-e5-color: rgb(85, 0, 255);
+    --octava-f5-color: rgb(170, 0, 255);
+    --octava-g5-color: rgb(255, 0, 255);
+    --octava-a5-color: rgb(255, 0, 170);
+    --octava-b5-color: rgb(255, 0, 85);
+
+    // octaves-colors-black-diez
+    // octava-diez-5
+    --octava-c3diez-color: rgb(255, 0, 0);
+    --octava-d3diez-color: rgb(255, 63.7, 0);
+    --octava-f3diez-color: rgb(255, 127.5, 0);
+    --octava-g3diez-color: rgb(255, 191.25, 0);
+    --octava-a3diez-color: rgb(255, 255, 0);
+
+    // octava-diez-4
+    --octava-c4diez-color: rgb(127.5, 255, 0);
+    --octava-d4diez-color: rgb(0, 255, 0);
+    --octava-f4diez-color: rgb(0, 255, 127.5);
+    --octava-g4diez-color: rgb(0, 255, 255);
+    --octava-a4diez-color: rgb(0, 127.5, 255);
+
+    // octava-diez-5
+    --octava-c5diez-color: rgb(0, 0, 255);
+    --octava-d5diez-color: rgb(127.5, 0, 255);
+    --octava-f5diez-color: rgb(255, 0, 255);
+    --octava-g5diez-color: rgb(255, 0, 170);
+    --octava-a5diez-color: rgb(255, 0, 85);
+}
